@@ -11,8 +11,14 @@ body{
     font-size: 50px;
 }
 .submit{
-    background-color: blue;
+    background-color: #4CAF50; /* Green */
+    border: none;
     color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 .submit:hover{
     animation-name: sub;
@@ -20,6 +26,6 @@ body{
     animation-duration: 1000ms;
 }
 @keyframes sub{
-from {background-color: blue;}
+from {background-color: #4CAF50;}
 to {background-color: cadetblue;}
 }
