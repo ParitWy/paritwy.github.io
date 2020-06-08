@@ -1,0 +1,25 @@
+body{
+    background-image: url('photo-1579546929518-9e396f3cc809.jpg');
+    background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 100%;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+.header{
+    font-size: 50px;
+}
+.submit{
+    background-color: blue;
+    color: white;
+}
+.submit:hover{
+    animation-name: sub;
+    animation-fill-mode: forwards;
+    animation-duration: 1000ms;
+}
+@keyframes sub{
+from {background-color: blue;}
+to {background-color: cadetblue;}
+}
